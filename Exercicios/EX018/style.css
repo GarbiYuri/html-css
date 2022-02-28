@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
+@font-face {
+    font-family:varsity_regular;
+    src: url('fontes/varsity_regular.ttf') format('truetype');
+}  
+body{   
+    font-family: 'varsity_regular', Helvetica, sans-serif, arial, serif;
+    }
+    h1 {
+    font-family: 'varsity_regular', sans-serif, arial, serif;       
+    }
+    p {
+        font-family: 'Dancing Script', monospace, verdana, arial,Helvetica;
+    }

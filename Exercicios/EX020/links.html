@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a {
+        color: red;
+        text-decoration: none;
+    }
+    a:visited {
+        color: aqua;
+    }
+    a:hover{
+        color: black;
+        
+        text-decoration: underline;
+    }
+    a:active {
+        color: yellow;
+    }
+    a::before {
+content: '➡';
+    }
+    a::after {
+        content: '⬅';
+    }
+</style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="file:///D:/html%20css/Meus%20feitos/03/index.html" target="_blank">Site meu</a></li>
+        <li><a href="https://mega.nz/folder/lttlDCJD#JSR3kUEBFZef8GcY4_bJ5g" target="_blank">Mega link</a></li>
+        <li><a href="https://projects.fewfre.com/a801/deadmaze/tracker/" target="_blank">Sei la</a></li>
+
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    font: default,15px, 15px, verdana, arial ;
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    color: brown;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+    
+}
+
+
