@@ -61,6 +61,13 @@ main{
     background-color: white;
     margin: 0px 25px ;
 }
+main p{
+    padding: 10px;
+}
+main img{
+    width: 20%;
+    
+}
 .direita{
     text-align: right;
     height: 0px;
