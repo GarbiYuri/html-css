@@ -78,7 +78,7 @@ main img{
     min-width: 190px;   
 }
 abbr{
-    padding: 200px;
+    padding-left: 25%;
 }
 .direita{
     text-align: right;
