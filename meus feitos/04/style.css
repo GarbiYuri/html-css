@@ -44,6 +44,7 @@ nav > p{
     font-size: 20px;
     text-indent: 30px;
     margin-top: 0px;
+    margin-bottom: 5px;
 }
 p > a{
     text-decoration: none;
@@ -58,17 +59,21 @@ a:active{
     color: white;
     background-color: black;
 }
-
+main{
+    background-color: white;
+    margin: 0px 10px 0px 10px;
+}
 article{
     text-align: center;
     background-color: var(--cor3);
     border-radius: 0px 0px 100px 100px;
     box-shadow: 0px 0px 4px black;
+    color:black;
 }
-main{
-    background-color: white;
-    margin: 0px 25px ;
+main h1{
+    margin: 0px;
 }
+
 main p{
     padding: 20px 0px;
 }
