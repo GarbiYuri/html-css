@@ -1,23 +1,17 @@
 @charset "UTF-8";
 body{
-    height: 100vh;
-    background-image: url('../meusteste/unnamed_4.gif');
+    height: 97vh;
+    background: black url('../meusteste/87ea54d7bf2fe640dc34db35c82cacad.gif') center center no-repeat fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
 }
-div.bloco{
-    border:1px solid black;
-    display: inline-block;
-    width: 100px; 
-    height: 120px;
+main{
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    margin:auto;
+    max-width: 700px;
 }
-div#q1{
-    background-position: left top;
-}
-div#q2{
-background-position: right top;
-}
-div#q3{
-    background-position:right bottom;
+main p{
+    text-align: justify;
+    text-indent: 5px;
 }
