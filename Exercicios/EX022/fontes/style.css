@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body{
+    background-image: url('../meusteste/teste.mp4');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+div.bloco{
+    border:1px solid black;
+    display: inline-block;
+    width: 100px; 
+    height: 120px;
+}
+div#q1{
+    background-position: left top;
+}
+div#q2{
+background-position: right top;
+}
+div#q3{
+    background-position:right bottom;
+}
