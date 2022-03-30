@@ -27,15 +27,16 @@ a:hover{
 }
 
 header h1{
-    font-size: 5em;
+    font-size: 13vw;
     margin: 0px;
     font-family: var(--fonte1);
+    font-variant: small-caps;
 }
 
 header{
     background-color: black;
-    border-top:60px solid black;
-    border-bottom: 30px solid black;
+    border-top:20vh solid black;
+    border-bottom: 20vh solid black;
 }
 
 header p{
@@ -53,19 +54,23 @@ main{
     background-color: white;
     color: black;
     text-align: left;
-    font-size: 40px;
+    font-size: 4vw;
     font-family: var(--fonte2);
 }
 
 main > .normal p{
     margin: 0px;
-    padding: 150px 50px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 20px;
 }
 
 main .diferente{
     padding: 150px 50px;
     margin-right: 0px;
     padding: 0px;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: inset 1px 1px 7px black;
 }
 
 div p {
@@ -77,7 +82,7 @@ div p {
 }
 
 #img01{
-    background: white url('../imagens/background001.jpg') center center no-repeat fixed;
+    background: white url('../imagens/background001.jpg') right center no-repeat fixed;
     background-size: cover;
     height: 100%;
     width: 100%;
