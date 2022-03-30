@@ -12,7 +12,7 @@
 }
 body{
     margin:0px;
-    background:blue url('../Imagens/LanaRhoades.gif') center center no-repeat fixed;
+    background:rgb(252, 252, 252) url('../Imagens/LanaRhoades.gif') center center no-repeat fixed;
     background-size: cover;
 }
 /*background-image: linear-gradient(to bottom,#400000,#800000,#BF0000,#FF0101);*/
