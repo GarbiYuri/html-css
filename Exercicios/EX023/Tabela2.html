@@ -11,6 +11,13 @@
         }
         table{
             margin: auto;
+            border-collapse: collapse;
+            position: relative;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+
         }
         td, th{
             border: 1px solid black;
@@ -24,20 +31,34 @@
             background-color: grey;
             color: white;
         }
+        tbody tr:nth-child(2n){
+            background-color: lightgrey;
+
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: lightgrey;
+            vertical-align: middle;
+            padding-bottom: 2%;
+            padding-top: 2%;
+
+        }
     </style>
 </head>
 <body>
     <h1>Tabela grande</h1>
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Unidade Federativa</th>
-                <th>Populção 2010</th>
-                <th>População 2021</th>
-                <th>Mudança</th>
-                <th>% da População Total</th>
-                <th>País comparavel (Habitantes)</th>
+                <th scope="col">Posição</th>
+                <th scope="col">Unidade Federativa</th>
+                <th scope="col">Populção 2010</th>
+                <th scope="col">População 2021</th>
+                <th scope="col">Mudança</th>
+                <th scope="col">% da População Total</th>
+                <th scope="col">País comparavel (Habitantes)</th>
             </tr>
         </thead>
         <tbody>
@@ -287,11 +308,19 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
-                <td><strong>213.317.639</strong></td>
+                <th scope="row">Total de Habitantes</th>
+                <td scope="row"><strong>213.317.639</strong></td>
             </tr>
 
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolore animi est accusamus nostrum quidem inventore dolor quae, ullam eligendi, provident molestiae eius ut, blanditiis corporis eveniet ab quasi aspernatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores tempore magnam, consequatur iusto fugit doloribus ab perspiciatis ad voluptatibus dolores impedit minima eaque aliquid labore vel? Voluptates sequi expedita Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laudantium fuga et fugit non voluptatibus nostrum eveniet tenetur, labore accusantium vel ipsam rem recusandae perferendis incidunt enim minima impedit</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolore animi est accusamus nostrum quidem inventore dolor quae, ullam eligendi, provident molestiae eius ut, blanditiis corporis eveniet ab quasi aspernatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores tempore magnam, consequatur iusto fugit doloribus ab perspiciatis ad voluptatibus dolores impedit minima eaque aliquid labore vel? Voluptates sequi expedita Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laudantium fuga et fugit non voluptatibus nostrum eveniet tenetur, labore accusantium vel ipsam rem recusandae perferendis incidunt enim minima impedit</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolore animi est accusamus nostrum quidem inventore dolor quae, ullam eligendi, provident molestiae eius ut, blanditiis corporis eveniet ab quasi aspernatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores tempore magnam, consequatur iusto fugit doloribus ab perspiciatis ad voluptatibus dolores impedit minima eaque aliquid labore vel? Voluptates sequi expedita Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laudantium fuga et fugit non voluptatibus nostrum eveniet tenetur, labore accusantium vel ipsam rem recusandae perferendis incidunt enim minima impedit</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolore animi est accusamus nostrum quidem inventore dolor quae, ullam eligendi, provident molestiae eius ut, blanditiis corporis eveniet ab quasi aspernatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores tempore magnam, consequatur iusto fugit doloribus ab perspiciatis ad voluptatibus dolores impedit minima eaque aliquid labore vel? Voluptates sequi expedita Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laudantium fuga et fugit non voluptatibus nostrum eveniet tenetur, labore accusantium vel ipsam rem recusandae perferendis incidunt enim minima impedit</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolore animi est accusamus nostrum quidem inventore dolor quae, ullam eligendi, provident molestiae eius ut, blanditiis corporis eveniet ab quasi aspernatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores tempore magnam, consequatur iusto fugit doloribus ab perspiciatis ad voluptatibus dolores impedit minima eaque aliquid labore vel? Voluptates sequi expedita Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laudantium fuga et fugit non voluptatibus nostrum eveniet tenetur, labore accusantium vel ipsam rem recusandae perferendis incidunt enim minima impedit</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolore animi est accusamus nostrum quidem inventore dolor quae, ullam eligendi, provident molestiae eius ut, blanditiis corporis eveniet ab quasi aspernatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores tempore magnam, consequatur iusto fugit doloribus ab perspiciatis ad voluptatibus dolores impedit minima eaque aliquid labore vel? Voluptates sequi expedita Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laudantium fuga et fugit non voluptatibus nostrum eveniet tenetur, labore accusantium vel ipsam rem recusandae perferendis incidunt enim minima impedit</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolore animi est accusamus nostrum quidem inventore dolor quae, ullam eligendi, provident molestiae eius ut, blanditiis corporis eveniet ab quasi aspernatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores tempore magnam, consequatur iusto fugit doloribus ab perspiciatis ad voluptatibus dolores impedit minima eaque aliquid labore vel? Voluptates sequi expedita Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laudantium fuga et fugit non voluptatibus nostrum eveniet tenetur, labore accusantium vel ipsam rem recusandae perferendis incidunt enim minima impedit</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolore animi est accusamus nostrum quidem inventore dolor quae, ullam eligendi, provident molestiae eius ut, blanditiis corporis eveniet ab quasi aspernatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores tempore magnam, consequatur iusto fugit doloribus ab perspiciatis ad voluptatibus dolores impedit minima eaque aliquid labore vel? Voluptates sequi expedita Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laudantium fuga et fugit non voluptatibus nostrum eveniet tenetur, labore accusantium vel ipsam rem recusandae perferendis incidunt enim minima impedit</p>
 </body>
 </html>
